@@ -20,7 +20,6 @@
 
         <!-- category selection -->
         <div class="category-select hidden">
-
             <!-- User value -->
             <div class="user">
                 <h2 class="user--name">Enter Your Name</h2>
@@ -50,12 +49,44 @@
                     </div>
                 </ul>
             </div>
-            <p class="error hidden">Please enter a name and select category</p>
+            <p class="error"></p>
             <button class="btn category--btn">
                 Start Quiz
             </button>
         </div>
         <div class="quiz-app hidden">
+            <div class="current">
+                <span>Current-User:</span>
+                <h1 class="user-name"></h1>
+            </div>
+            <div class="quiz">
+                <span class="question-number">Question </span>
+                <span class="score"></span>
+                <h1 class="question">What is the capital of Nigeria</h1>
+                <div class="option-container">
+                    <p class="option-prefix">A</p>
+                    <p class="option-text" data-number="1"></p>
+                </div>
+                <div class="option-container">
+                    <p class="option-prefix">B</p>
+                    <p class="option-text" data-number="2"></p>
+                </div>
+                <div class="option-container">
+                    <p class="option-prefix">C</p>
+                    <p class="option-text" data-number="3"></p>
+                </div>
+                <div class="option-container">
+                    <p class="option-prefix">D</p>
+                    <p class="option-text" data-number="4"></p>
+                </div>
+
+            </div>
+           
+        </div>
+
+
+        <div class="final hidden">
+            <h1 class="yay">you finisheed</h1>
         </div>
     </div>
 

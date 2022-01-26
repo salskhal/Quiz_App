@@ -18,7 +18,7 @@
 
 
 body{
-    min-height: 100vh;
+    height: 100vh;
     background: var(--amber);
     font-family: var(--font);
     font-size: 10px;
@@ -31,6 +31,9 @@ body{
     align-items: center;
     justify-content: center;
     height: inherit;
+
+
+    padding: 30px;
 }
 
 .hidden{
@@ -177,10 +180,61 @@ body{
     background: red;
 }
 
-.selected{
+.select{
     background: purple;
 }
 
 .error{
     color: red;
 }
+
+
+
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.3rem;
+    width: 100%;
+    font-size: 1.4rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1.2rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 1.2rem 2.2rem;
+    background-color: #56a5eb;
+    color: white;
+  }
+  
+  .choice-text {
+    padding: 1.2rem;
+    width: 100%;
+  }
+
+  .question{
+    font-size: 2.5rem;
+    color: #56a5eb;
+    margin-bottom: 3rem;
+  }
+
+
+
+  .right{
+      color: green;
+  }
+
+  .false{
+      color: red;
+  }
+
+
+  .option-container{
+      cursor: pointer;
+  }
